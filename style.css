@@ -1,12 +1,21 @@
+.box-text {
+    width: 500px;
+    height: 250px;
+    background-color: rgb(207, 207, 207);
+    margin: auto;
+    box-shadow: 2px 2px 6px rgb(161, 161, 161);
+    border-radius: 5px;
+    margin-top: 200px;
+}
+
 .text {
     display: flex;
     align-items: center;
     justify-content: center;
-    font: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    margin-top: 150px;
     font-size: 25px;
+    gap: 50px;
     margin-bottom: 30px;
 }
 
@@ -43,7 +52,6 @@
     background-color: black;
     color: white;
     transition: 1.0s;
-    font: bold;
 }
 
 #btn:hover {
